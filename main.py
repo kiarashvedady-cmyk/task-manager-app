@@ -1,4 +1,8 @@
 from functins import write_todos, get_todos
+import time
+
+now = time.strftime('%a %d %b %Y, %I:%M%p')
+print(now)
 
 while True:
     user_action = input("What do you want to do?"
