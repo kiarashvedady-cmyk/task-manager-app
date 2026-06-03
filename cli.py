@@ -1,4 +1,4 @@
-from functins import write_todos, get_todos
+from functions import write_todos, get_todos
 import time
 
 now = time.strftime('%a %d %b %Y, %I:%M%p')
